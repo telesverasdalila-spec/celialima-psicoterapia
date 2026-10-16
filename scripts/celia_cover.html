@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    @page { size: 794px 1123px; margin: 0; }
+    :root {
+      --c-bg: #faf6f1;          /* areia clara */
+      --c-text: #3d3530;        /* marrom-escuro quente */
+      --c-muted: #838179;       /* marrom suave */
+      --c-accent: #a05a3c;      /* terracota */
+      --c-accent-2: #7a8a5b;    /* verde sálvia */
+      --c-line: #d9d4c5;       /* areia média */
+    }
+    html, body {
+      margin: 0; padding: 0; width: 794px; height: 1123px;
+      background: var(--c-bg); color: var(--c-text);
+      font-family: 'Inter', sans-serif;
+    }
+    @media screen {
+      html { height: auto; display: flex; justify-content: center; min-height: 100vh; background: #e8e6e2; }
+      body { transform-origin: top center; scale: min(1, calc(100vw / 794), calc(100vh / 1123)); margin: 0 auto; box-shadow: 0 0 60px rgba(0,0,0,0.15); }
+    }
+    .cover { width: 794px; height: 1123px; position: relative; box-sizing: border-box; }
+
+    /* Layer 1: background sutil - linhas finas quase invisíveis */
+    .layer-1 { position: absolute; inset: 0; overflow: hidden; z-index: 1; }
+    .bg-circle {
+      position: absolute;
+      right: 0; top: 0;
+      width: 380px; height: 380px;
+      border-radius: 50%;
+      background: radial-gradient(circle at top right, rgba(160, 90, 60, 0.05) 0%, transparent 70%);
+    }
+    .bg-circle-2 {
+      position: absolute;
+      left: 0; bottom: 0;
+      width: 320px; height: 320px;
+      border-radius: 50%;
+      background: radial-gradient(circle at bottom left, rgba(122, 138, 91, 0.05) 0%, transparent 70%);
+    }
+
+    /* Layer 2: estrutura - linha vertical fina à esquerda + divisor horizontal */
+    .layer-2 { position: absolute; inset: 0; z-index: 2; }
+    .vline {
+      position: absolute;
+      left: 60px; top: 165px; bottom: 165px;
+      width: 1.5px; background: var(--c-accent);
+    }
+    .hline-top {
+      position: absolute;
+      left: 145px; right: 95px; top: 165px;
+      height: 0.6px; background: var(--c-line);
+    }
+    .hline-bottom {
+      position: absolute;
+      left: 145px; right: 95px; bottom: 165px;
+      height: 0.6px; background: var(--c-line);
+    }
+
+    /* Layer 3: conteúdo */
+    .layer-3 { position: absolute; inset: 0; z-index: 3; }
+
+    /* Kicker - rótulo no topo */
+    .kicker {
+      position: absolute;
+      left: 145px; top: 105px;
+      font-size: 10pt; font-weight: 500;
+      color: var(--c-accent); letter-spacing: 5px;
+      text-transform: uppercase;
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* Hero Title */
+    .title-block {
+      position: absolute;
+      left: 145px; right: 95px;
+      top: 310px;
+    }
+    .title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 56pt;
+      font-weight: 600;
+      line-height: 1.12;
+      color: var(--c-text);
+      letter-spacing: -0.5px;
+      max-width: 560px;
+    }
+    .title .accent {
+      font-style: italic;
+      font-weight: 500;
+      color: var(--c-accent);
+    }
+
+    /* Subtítulo */
+    .subtitle {
+      position: absolute;
+      left: 145px; right: 95px;
+      top: 530px;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 17pt;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.5;
+      color: var(--c-muted);
+      max-width: 480px;
+    }
+
+    /* Summary */
+    .summary {
+      position: absolute;
+      left: 145px; right: 95px;
+      top: 645px;
+      font-family: 'Inter', sans-serif;
+      font-size: 11pt;
+      font-weight: 400;
+      line-height: 1.65;
+      color: var(--c-text);
+      opacity: 0.85;
+      max-width: 500px;
+    }
+
+    /* Meta block - autora e ano */
+    .meta-block {
+      position: absolute;
+      left: 145px; right: 95px;
+      bottom: 215px;
+    }
+    .author-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 8.5pt;
+      font-weight: 500;
+      color: var(--c-muted);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .author-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 26pt;
+      font-weight: 500;
+      color: var(--c-text);
+      letter-spacing: 0.5px;
+    }
+
+    /* Footer - ano + contagem */
+    .footer {
+      position: absolute;
+      left: 145px; right: 95px;
+      bottom: 105px;
+      display: flex; justify-content: space-between; align-items: baseline;
+      font-family: 'Inter', sans-serif;
+      font-size: 9pt;
+      color: var(--c-muted);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .footer-left { font-weight: 500; }
+    .footer-right { font-weight: 400; }
+  </style>
+</head>
+<body>
+  <div class="cover">
+    <!-- Layer 1: background -->
+    <div class="layer-1">
+      <div class="bg-circle"></div>
+      <div class="bg-circle-2"></div>
+    </div>
+
+    <!-- Layer 2: structure -->
+    <div class="layer-2">
+      <div class="vline"></div>
+      <div class="hline-top"></div>
+      <div class="hline-bottom"></div>
+    </div>
+
+    <!-- Layer 3: content -->
+    <div class="layer-3">
+      <div class="kicker">Coletânea Terapêutica</div>
+
+      <div class="title-block">
+        <div class="title">Caminhos do<br><span class="accent">Autoconhecimento</span></div>
+      </div>
+
+      <div class="subtitle">Textos de uma trajetória terapêutica — noventa e oito artigos de Célia Lima</div>
+
+      <div class="summary">Uma coletânea que percorre, em mais de uma década de escrita, os temas que atravessam a vida de quase todo mundo: o amor e seus limites, a família e seus espelhos, o corpo e seus sinais, o trabalho e o sentido. Não é um manual — é um convite a pensar.</div>
+
+      <div class="meta-block">
+        <div class="author-label">Organizado por</div>
+        <div class="author-name">Célia Lima</div>
+      </div>
+
+      <div class="footer">
+        <span class="footer-left">Edição 2026</span>
+        <span class="footer-right">98 textos · 6 capítulos</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

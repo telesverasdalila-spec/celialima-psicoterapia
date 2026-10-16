@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="hero-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#faf6f1"/>
+      <stop offset="50%" stop-color="#f4e4d3"/>
+      <stop offset="100%" stop-color="#e8d4ba"/>
+    </linearGradient>
+    <linearGradient id="hero-mountain-1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8a87e" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#a05a3c" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="hero-mountain-2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a05a3c" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#7a4a30" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="hero-mountain-3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a8a5b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#5a6a3b" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Céu -->
+  <rect width="1920" height="1080" fill="url(#hero-sky)"/>
+
+  <!-- Sol/brasas suaves -->
+  <circle cx="1500" cy="280" r="120" fill="#e8c890" opacity="0.5"/>
+  <circle cx="1500" cy="280" r="80" fill="#d4a874" opacity="0.4"/>
+
+  <!-- Camada 3 — montanhas ao fundo (mais verdes) -->
+  <path d="M 0,720 L 150,580 L 320,640 L 480,540 L 640,620 L 820,560 L 980,610 L 1180,540 L 1360,600 L 1540,520 L 1720,580 L 1920,540 L 1920,1080 L 0,1080 Z"
+        fill="url(#hero-mountain-3)"/>
+
+  <!-- Camada 2 — montanhas do meio (terrosas) -->
+  <path d="M 0,800 L 200,680 L 380,740 L 580,650 L 760,720 L 940,660 L 1140,710 L 1340,650 L 1520,710 L 1720,650 L 1920,710 L 1920,1080 L 0,1080 Z"
+        fill="url(#hero-mountain-2)"/>
+
+  <!-- Camada 1 — montanhas da frente (mais escuras) -->
+  <path d="M 0,880 L 240,760 L 460,820 L 680,740 L 900,800 L 1120,750 L 1340,810 L 1560,740 L 1760,800 L 1920,760 L 1920,1080 L 0,1080 Z"
+        fill="url(#hero-mountain-1)"/>
+
+  <!-- Brilho sutil no topo -->
+  <ellipse cx="1500" cy="280" rx="220" ry="80" fill="#faecd8" opacity="0.3"/>
+</svg>
