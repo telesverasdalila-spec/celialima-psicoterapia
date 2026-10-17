@@ -17,17 +17,14 @@ export default function SobrePage() {
           <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-start">
             <div className="relative">
               <div className="relative w-full max-w-xs mx-auto">
-                {/* Faixa decorativa atrás — sutil */}
-                <div className="absolute -right-3 -top-3 bottom-3 -left-3 bg-accent/15 rounded-full" />
-                <div className="absolute -right-3 -top-3 bottom-3 -left-3 border border-accent/30 rounded-full" />
-                {/* Foto circular com fundo transparente */}
+                {/* Foto circular com fundo transparente — sem moldura extra, a própria foto já tem acabamento */}
                 <div className="relative aspect-square w-full flex items-center justify-center">
                   <Image
                     src="/celia-sobre.png"
                     alt="Célia Lima"
                     width={400}
                     height={400}
-                    className="object-contain drop-shadow-xl"
+                    className="object-contain"
                     sizes="(max-width: 768px) 80vw, 30vw"
                     priority
                   />
