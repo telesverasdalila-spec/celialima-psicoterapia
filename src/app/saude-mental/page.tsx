@@ -34,20 +34,28 @@ export default function SaudeMentalPage() {
       <section className="border-b border-border">
         <div className="mx-auto max-w-6xl px-6 lg:px-8 py-20 md:py-24">
           <p className="text-xs uppercase tracking-[0.25em] text-primary mb-6">
-            Saúde Mental
+            Publicações
           </p>
           <h1
-            className="text-4xl md:text-5xl lg:text-6xl text-foreground leading-[1.1] mb-6 max-w-3xl"
+            className="text-4xl md:text-5xl lg:text-6xl text-foreground leading-[1.1] mb-8 max-w-4xl"
             style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
           >
-            Textos, reflexões e
-            <span className="italic text-primary"> perguntas que voltam.</span>
+            Histórias e reflexões
+            <span className="italic text-primary"> de consultório.</span>
           </h1>
-          <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
-            Artigos que conversam com o leitor sobre os grandes temas da vida —
-            amor, família, corpo, trabalho, espiritualidade. Para ler, pausar,
-            voltar. Sem pressa.
-          </p>
+          <div className="max-w-3xl space-y-5 text-base md:text-lg text-foreground/85 leading-relaxed">
+            <p>
+              Em mais de três décadas ouvindo as dores e angústias no meu
+              espaço, decidi transformar as experiências dessa trajetória em
+              conteúdos e artigos que possam ser compartilhados não só com
+              meus pacientes, mas com todos os interessados em alcançar uma
+              vida mais plena e íntegra — num processo de autoconhecimento
+              conduzido com leveza, acolhimento e gentileza.
+            </p>
+            <p className="italic text-muted-foreground">
+              — Célia Lima
+            </p>
+          </div>
         </div>
       </section>
 

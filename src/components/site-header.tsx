@@ -9,7 +9,7 @@ const navItems = [
   { href: "/", label: "Início" },
   { href: "/sobre", label: "Sobre" },
   { href: "/atendimento", label: "Atendimento" },
-  { href: "/saude-mental", label: "Saúde Mental" },
+  { href: "/saude-mental", label: "Publicações" },
   { href: "/caixa-de-ferramentas", label: "Caixa de Ferramentas" },
   { href: "/contato", label: "Contato" },
 ];

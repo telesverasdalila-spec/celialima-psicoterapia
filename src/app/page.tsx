@@ -82,44 +82,76 @@ export default function Home() {
             </h2>
             <p className="text-muted-foreground leading-relaxed">
               Cada contexto reúne textos e práticas que conversam com uma dor,
-              uma pergunta ou um momento da vida. Escolha o que ressoa.
+              uma pergunta ou um momento da vida. Comece pela epígrafe — e
+              escolha o que ressoa.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {contexts.map((ctx) => (
-              <Link
-                key={ctx.slug}
-                href={`/contextos/${ctx.slug}`}
-                className="group flex bg-card rounded-sm border border-border hover:border-primary/40 transition-all hover:shadow-sm overflow-hidden"
+            {/* Card especial: citação do Tom Zé (primeira posição, sem moldura) */}
+            <div className="p-6 bg-secondary rounded-sm flex flex-col justify-center h-[176px]">
+              <p
+                className="text-5xl text-primary leading-none mb-2"
+                style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                aria-hidden="true"
               >
-                {/* Imagem à esquerda */}
-                <div className="relative w-32 h-32 flex-shrink-0">
-                  <Image
-                    src={`/contextos/${ctx.slug}.svg`}
-                    alt=""
-                    fill
-                    className="object-cover"
-                    sizes="128px"
-                  />
-                </div>
-                {/* Conteúdo */}
-                <div className="flex-1 p-5">
-                  <h3
-                    className="text-xl text-foreground mb-2 group-hover:text-primary transition-colors"
-                    style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                &ldquo;
+              </p>
+              <p
+                className="text-xl md:text-2xl text-foreground leading-relaxed italic"
+                style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+              >
+                Ao persistirem os médicos, os sintomas deverão ser consultados.
+              </p>
+              <p
+                className="text-sm text-muted-foreground italic mt-3"
+                style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 400 }}
+              >
+                &mdash; Tom Zé
+              </p>
+            </div>
+
+            {contexts.map((ctx, i) => {
+              // Alterna lado: cards em posição par (0, 2, 4, 6) = imagem à direita
+              //                cards em posição ímpar (1, 3, 5) = imagem à esquerda
+              // Cria "espelhamento" visual ao longo das colunas
+              const imgRight = i % 2 === 0;
+              return (
+                <Link
+                  key={ctx.slug}
+                  href={`/contextos/${ctx.slug}`}
+                  className="group flex bg-card rounded-sm border border-border hover:border-primary/40 transition-all hover:shadow-sm overflow-hidden h-[176px]"
+                >
+                  {/* Imagem (à direita ou à esquerda, alternando) */}
+                  <div
+                    className={`relative w-32 flex-shrink-0 ${imgRight ? 'order-2' : 'order-1'}`}
                   >
-                    {ctx.label}
-                  </h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3">
-                    {ctx.description}
-                  </p>
-                  <p className="mt-3 inline-flex items-center gap-1 text-xs text-primary opacity-0 group-hover:opacity-100 transition-opacity">
-                    Explorar <ArrowRight size={12} />
-                  </p>
-                </div>
-              </Link>
-            ))}
+                    <Image
+                      src={`/contextos/${ctx.slug}.svg`}
+                      alt=""
+                      fill
+                      className="object-cover"
+                      sizes="128px"
+                    />
+                  </div>
+                  {/* Conteúdo */}
+                  <div className={`flex-1 p-5 flex flex-col justify-center ${imgRight ? 'order-1' : 'order-2'}`}>
+                    <h3
+                      className="text-xl text-foreground mb-2 group-hover:text-primary transition-colors"
+                      style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                    >
+                      {ctx.label}
+                    </h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3">
+                      {ctx.description}
+                    </p>
+                    <p className="mt-3 inline-flex items-center gap-1 text-xs text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                      Explorar <ArrowRight size={12} />
+                    </p>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -129,7 +161,7 @@ export default function Home() {
         <section className="border-b border-border">
           <div className="mx-auto max-w-6xl px-6 lg:px-8 py-20 md:py-24">
             <p className="text-xs uppercase tracking-[0.25em] text-primary mb-4">
-              Texto da semana
+              Publicação da semana
             </p>
             <h2
               className="text-3xl md:text-4xl text-foreground mb-12"
@@ -144,7 +176,7 @@ export default function Home() {
                 className="group p-8 bg-card rounded-sm border border-border hover:border-primary/40 transition-all"
               >
                 <p className="text-xs uppercase tracking-[0.2em] text-primary mb-3">
-                  Artigo · {artigoDaSemana.contextLabels[0]}
+                  Publicação · {artigoDaSemana.contextLabels[0]}
                 </p>
                 <h3
                   className="text-2xl md:text-3xl text-foreground mb-4 group-hover:text-primary transition-colors leading-snug"

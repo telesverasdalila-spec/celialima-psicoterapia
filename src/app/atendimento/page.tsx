@@ -5,7 +5,7 @@ import { services } from "@/lib/articles";
 export const metadata = {
   title: "Atendimento",
   description:
-    "Como funciona o atendimento de psicoterapia da Célia Lima: abordagem, modalidades e serviços para diferentes momentos da vida.",
+    "Como atuo na caminhada terapêutica: psicoterapia de orientação junguiana e psicosíntese, com mais de 30 anos de prática clínica, escuta ativa e recursos de terapias integrativas.",
 };
 
 export default function AtendimentoPage() {
@@ -21,15 +21,17 @@ export default function AtendimentoPage() {
             className="text-4xl md:text-5xl lg:text-6xl text-foreground leading-[1.1] mb-8 max-w-3xl"
             style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
           >
-            Como a Célia trabalha.
+            Como atuo na caminhada terapêutica.
           </h1>
           <div className="space-y-5 text-lg text-foreground/85 leading-relaxed max-w-3xl">
             <p>
-              A Célia Lima é <strong>psicoterapeuta de orientação junguiana e
-              psicosíntese</strong>, com mais de 30 anos de prática clínica.
-              Trabalha com escuta ativa, atenção aos símbolos e ao que o corpo
-              diz, e uso integrativo de recursos como florais, óleos essenciais,
-              respiração e psicodrama — quando fazem sentido para cada pessoa.
+              Com mais de 30 anos de experiência em psicoterapias de orientação
+              junguiana e psicosíntese, meu foco é apoiar você a olhar para a
+              própria história com clareza e profundidade. Trabalho com escuta
+              ativa, atenção aos símbolos e ao corpo. Quando fazem sentido pra
+              pessoa, uso como apoio terapêutico os recursos das terapias
+              energéticas e vivências integrativas, acelerando meus pacientes
+              na conquista da saúde física e emocional mais plena.
             </p>
             <p className="italic text-muted-foreground border-l-2 border-primary pl-4">
               "Não se trata só de parar de sofrer. Trata-se de virar a pessoa
@@ -54,8 +56,7 @@ export default function AtendimentoPage() {
             </h2>
             <p className="text-muted-foreground leading-relaxed">
               Não existe um jeito único de começar. Escolha a que faz sentido
-              para o seu momento — a Célia te ajuda a decidir na primeira
-              conversa.
+              para o seu momento — te ajudo a decidir na primeira conversa.
             </p>
           </div>
 
@@ -164,11 +165,11 @@ export default function AtendimentoPage() {
               className="text-3xl md:text-4xl mb-5 leading-tight"
               style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
             >
-              Quer conversar com a Célia?
+              Quer conversar comigo?
             </h2>
             <p className="text-primary-foreground/90 leading-relaxed mb-7">
               A primeira conversa é sem custo e sem compromisso. É um momento
-              para você sentir se faz sentido seguir, e para a Célia entender
+              para você sentir se faz sentido seguir, e para eu entender
               o que você está procurando.
             </p>
             <Link

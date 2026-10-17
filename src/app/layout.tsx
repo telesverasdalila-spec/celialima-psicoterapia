@@ -36,7 +36,8 @@ export const metadata: Metadata = {
     "família",
     "saúde emocional",
     "terapias integrativas",
-    "psicodrama",
+    "junguiana",
+    "psicosíntese",
   ],
   authors: [{ name: "Célia Lima" }],
   openGraph: {

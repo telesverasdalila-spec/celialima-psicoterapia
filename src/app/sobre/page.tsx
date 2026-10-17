@@ -5,7 +5,7 @@ import { ArrowRight, MessageCircle } from "lucide-react";
 export const metadata = {
   title: "Sobre",
   description:
-    "Conheça a trajetória e o método da psicoterapeuta Célia Lima — psicodrama, terapias integrativas e uma escuta ativa que acompanha pessoas em seus processos emocionais há mais de quinze anos.",
+    "Conheça minha trajetória e método — psicoterapia de orientação junguiana e psicosíntese, com mais de 30 anos de prática clínica, escuta ativa e recursos de terapias integrativas.",
 };
 
 export default function SobrePage() {
@@ -16,16 +16,20 @@ export default function SobrePage() {
         <div className="mx-auto max-w-5xl px-6 lg:px-8 py-20 md:py-28">
           <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-start">
             <div className="relative">
-              <div className="relative aspect-square w-full max-w-xs mx-auto">
-                <div className="absolute -right-3 -top-3 bottom-3 -left-3 bg-accent/15 rounded-sm" />
-                <div className="absolute -right-3 -top-3 bottom-3 -left-3 border border-accent/30 rounded-sm" />
-                <div className="relative h-full w-full overflow-hidden rounded-sm shadow-xl">
+              <div className="relative w-full max-w-xs mx-auto">
+                {/* Faixa decorativa atrás — sutil */}
+                <div className="absolute -right-3 -top-3 bottom-3 -left-3 bg-accent/15 rounded-full" />
+                <div className="absolute -right-3 -top-3 bottom-3 -left-3 border border-accent/30 rounded-full" />
+                {/* Foto circular com fundo transparente */}
+                <div className="relative aspect-square w-full flex items-center justify-center">
                   <Image
-                    src="/celia.png"
+                    src="/celia-sobre.png"
                     alt="Célia Lima"
-                    fill
-                    className="object-cover"
+                    width={400}
+                    height={400}
+                    className="object-contain drop-shadow-xl"
                     sizes="(max-width: 768px) 80vw, 30vw"
+                    priority
                   />
                 </div>
               </div>
@@ -43,28 +47,31 @@ export default function SobrePage() {
               </h1>
               <div className="space-y-5 text-base md:text-lg text-foreground/85 leading-relaxed">
                 <p>
-                  Célia Lima é psicoterapeuta com mais de quinze anos de prática clínica.
-                  Acompanha pessoas em seus processos emocionais com uma escuta atenta
-                  e direta, sem jargão técnico, e com profundo respeito pelo ritmo próprio
-                  de cada um.
+                  Sou psicoterapeuta com mais de 30 anos de prática clínica.
+                  Acompanho pessoas em seus processos emocionais com uma escuta
+                  atenta e direta, sem jargão técnico, e com profundo respeito
+                  pelo ritmo próprio de cada um.
                 </p>
                 <p>
-                  Sua escrita nasceu da prática: cada texto partiu de uma situação concreta
-                  vivida no consultório — uma dor, uma pergunta, um impasse — e ganhou
-                  forma para conversar com mais gente do que aqueles que conseguem sentar
-                  na poltrona da terapia.
+                  Minha escrita nasceu da prática: cada texto partiu de uma
+                  situação concreta vivida no consultório — uma dor, uma
+                  pergunta, um impasse — e ganhou forma para conversar com
+                  mais gente do que aqueles que conseguem sentar na poltrona
+                  da terapia.
                 </p>
                 <p>
-                  Trabalha com <strong>psicodrama</strong>, <strong>terapias integrativas</strong>
-                  {' '}(florais, óleos essenciais, respiração) e uma escuta que integra razão
-                  e emoção. Sua especialidade é ajudar o cliente a reconhecer os movimentos
-                  internos que se repetem — e a encontrar, dentro de si, o fio do qual dar
-                  um novo passo.
+                  Trabalho com <strong>psicoterapia de orientação junguiana
+                  e psicosíntese</strong>, <strong>terapias integrativas</strong>
+                  {' '}(florais, óleos essenciais, respiração) e uma escuta que
+                  integra razão e emoção. Meu foco é ajudar você a reconhecer
+                  os movimentos internos que se repetem — e a encontrar,
+                  dentro de si, o fio do qual dar um novo passo.
                 </p>
                 <p>
-                  Ao longo dessa trajetória publicou{" "}
-                  <strong>98 textos</strong> sobre autoconhecimento, amor, família, saúde,
-                  trabalho e espiritualidade — reunidos hoje neste site e no livro{" "}
+                  Ao longo dessa trajetória publiquei{" "}
+                  <strong>98 textos</strong> sobre autoconhecimento, amor,
+                  família, saúde, trabalho e espiritualidade — reunidos hoje
+                  neste site e no livro{" "}
                   <em>Caminhos do Autoconhecimento</em>.
                 </p>
               </div>
@@ -83,7 +90,7 @@ export default function SobrePage() {
             className="text-3xl md:text-4xl text-foreground mb-12"
             style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
           >
-            Como a Célia trabalha.
+            Como atuo.
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -92,19 +99,20 @@ export default function SobrePage() {
                 Escuta
               </h3>
               <p className="text-sm text-foreground/80 leading-relaxed">
-                Antes de qualquer técnica, a escuta. O espaço onde a pessoa pode falar sem
-                medo de julgamento, e onde o silêncio também é palavra. Aquilo que ainda não
-                consegue ser dito costuma ser o mais importante.
+                Antes de qualquer técnica, a escuta. O espaço onde você pode
+                falar sem medo de julgamento, e onde o silêncio também é
+                palavra. Aquilo que ainda não consegue ser dito costuma ser
+                o mais importante.
               </p>
             </div>
             <div>
               <h3 className="text-xl text-primary mb-3" style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 600 }}>
-                Psicodrama
+                Símbolos e sonhos
               </h3>
               <p className="text-sm text-foreground/80 leading-relaxed">
-                Método criado por Jacob Levy Moreno que encena emoções e situações —
-                colocar fora do corpo o que estava preso dentro. Permite ver, sob outro
-                ângulo, aquele diálogo que se repete há anos.
+                O inconsciente fala por imagens, não por palavras. Um sonho,
+                um sintoma do corpo, uma frase que escapa — tudo isso é
+                linguagem. A terapia aprende a ler essa linguagem.
               </p>
             </div>
             <div>
@@ -112,9 +120,10 @@ export default function SobrePage() {
                 Integrativo
               </h3>
               <p className="text-sm text-foreground/80 leading-relaxed">
-                Florais, óleos essenciais, respiração colorida: recursos que conversam
-                com o corpo quando só a palavra não dá conta. Sempre como complemento,
-                nunca como substituto da escuta e do trabalho psicológico.
+                Florais, óleos essenciais, respiração colorida: recursos
+                que conversam com o corpo quando só a palavra não dá conta.
+                Sempre como complemento, nunca como substituto da escuta e
+                do trabalho psicológico.
               </p>
             </div>
           </div>
@@ -129,12 +138,12 @@ export default function SobrePage() {
               className="text-3xl md:text-4xl mb-5 leading-tight"
               style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
             >
-              Quer conversar com a Célia?
+              Quer conversar comigo?
             </h2>
             <p className="text-primary-foreground/90 leading-relaxed mb-7">
-              A primeira conversa é sem custo e sem compromisso. É um momento para você
-              sentir se faz sentido seguir, e para a Célia entender o que você está
-              procurando.
+              A primeira conversa é sem custo e sem compromisso. É um
+              momento para você sentir se faz sentido seguir, e para eu
+              entender o que você está procurando.
             </p>
             <Link
               href="/contato"
