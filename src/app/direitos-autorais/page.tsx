@@ -16,7 +16,7 @@ export default function DireitosAutoraisPage() {
           heading: "1. Propriedade dos textos",
           body: [
             "Todos os textos publicados neste site são obra autoral de Célia Lima, protegida pela Lei 9.610/1998 (Lei de Direitos Autorais).",
-            "Os 98 textos que compõem a coletânea foram originalmente publicados pela autora na plataforma Personare entre 2009 e 2026, e foram posteriormente organizados pelo site da autora, com a devida cessão de uso.",
+            "Os textos que compõem a coletânea foram originalmente publicados pela autora na plataforma Personare entre 2009 e 2026, e foram posteriormente organizados pelo site da autora, com a devida cessão de uso.",
           ],
         },
         {

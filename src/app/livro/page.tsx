@@ -4,7 +4,7 @@ import { BookOpen, Download, FileText } from "lucide-react";
 export const metadata = {
   title: "Livro — Caminhos do Autoconhecimento",
   description:
-    "Baixe gratuitamente o livro 'Caminhos do Autoconhecimento', com 98 textos da psicoterapeuta Célia Lima organizados por área da vida. PDF gratuito.",
+    "Baixe gratuitamente o livro 'Caminhos do Autoconhecimento', uma reunião dos meus principais artigos publicados ao longo de mais de uma década de prática clínica. PDF gratuito.",
 };
 
 export default function LivroPage() {
@@ -50,10 +50,10 @@ export default function LivroPage() {
                 Caminhos do Autoconhecimento
               </h1>
               <p className="text-lg text-muted-foreground italic leading-relaxed mb-6">
-                Textos de uma trajetória terapêutica — noventa e oito artigos de Célia Lima
+                Textos de uma trajetória terapêutica — uma reunião dos meus principais artigos publicados
               </p>
               <p className="text-base text-foreground/85 leading-relaxed mb-8">
-                Uma coletânea que reúne 98 textos escritos ao longo de mais de
+                Uma coletânea que reúne os meus principais artigos publicados ao longo de mais de
                 uma década de prática clínica. Organizados por áreas da vida —
                 autoconhecimento, amor, família, saúde, trabalho e
                 espiritualidade —, no ritmo de cada leitora e leitor.
@@ -92,22 +92,19 @@ export default function LivroPage() {
             className="text-3xl md:text-4xl text-foreground mb-10"
             style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
           >
-            252 páginas organizadas em 6 capítulos.
+            Organizados em seis capítulos.
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { titulo: "Autoconhecimento", textos: 36, descricao: "Movimentos internos, juiz interior, carência, emoções que alimentamos." },
-              { titulo: "Amor e Relacionamentos", textos: 21, descricao: "Relações, escolhas, limites, codependência, sexualidade, separação." },
-              { titulo: "Família", textos: 21, descricao: "Mães e filhas, pais e filhos, sogras, avós, netos." },
-              { titulo: "Saúde e Corpo", textos: 8, descricao: "Corpo e emoção, terapias integrativas, sinais que o corpo emite." },
-              { titulo: "Carreira, Dinheiro e Casa", textos: 5, descricao: "Vocação, dinheiro como energia, espaço como espelho." },
-              { titulo: "Futuro, Espiritualidade e Alimentação", textos: 7, descricao: "Ansiedade, presença, espiritualidade no cotidiano." },
+              { titulo: "Autoconhecimento", descricao: "Movimentos internos, juiz interior, carência, emoções que alimentamos." },
+              { titulo: "Amor e Relacionamentos", descricao: "Relações, escolhas, limites, codependência, sexualidade, separação." },
+              { titulo: "Família", descricao: "Mães e filhas, pais e filhos, sogras, avós, netos." },
+              { titulo: "Saúde e Corpo", descricao: "Corpo e emoção, terapias integrativas, sinais que o corpo emite." },
+              { titulo: "Carreira, Dinheiro e Casa", descricao: "Vocação, dinheiro como energia, espaço como espelho." },
+              { titulo: "Futuro, Espiritualidade e Alimentação", descricao: "Ansiedade, presença, espiritualidade no cotidiano." },
             ].map((cap, i) => (
               <div key={i} className="p-5 bg-muted/30 rounded-sm border border-border">
-                <p className="text-xs uppercase tracking-[0.2em] text-primary mb-2">
-                  {cap.textos} {cap.textos === 1 ? "texto" : "textos"}
-                </p>
                 <h3
                   className="text-xl text-foreground mb-2"
                   style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
@@ -134,25 +131,24 @@ export default function LivroPage() {
           </h2>
           <div className="space-y-4 text-base text-foreground/85 leading-relaxed">
             <p>
-              "Caminhos do Autoconhecimento" reúne os textos que Célia Lima
-              publicou ao longo de mais de quinze anos de prática como
-              psicoterapeuta. São noventa e oito artigos que percorrem o arco de
-              uma trajetória dedicada a acompanhar pessoas em seus processos
-              emocionais.
+              "Caminhos do Autoconhecimento" reúne os textos que publiquei
+              ao longo de mais de quinze anos de prática como psicoterapeuta.
+              São artigos que percorrem o arco de uma trajetória dedicada
+              a acompanhar pessoas em seus processos emocionais.
             </p>
             <p>
-              A escrita de Célia tem o tom do consultório: direto, acolhedor,
+              Minha escrita tem o tom do consultório: direto, acolhedor,
               sem jargão. Cada texto parte de uma situação concreta — uma dor,
               uma pergunta, um impasse — e aí encontra o fio para conversar
               sobre o que está em jogo.
             </p>
             <p>
-              Esta coletânea foi montada em 2026 a partir do acervo que a autora
-              publicou originalmente na plataforma Personare. Os textos são
-              apresentados em sua forma integral, sem alterações de conteúdo —
-              apenas com a revisão mínima necessária à publicação em livro. A
-              ordem dentro de cada capítulo é cronológica, para que o leitor
-              possa acompanhar a maturação das ideias ao longo do tempo.
+              Esta coletânea foi montada em 2026 a partir do acervo que publiquei
+              originalmente na plataforma Personare. Os textos são apresentados
+              em sua forma integral, sem alterações de conteúdo — apenas com a
+              revisão mínima necessária à publicação em livro. A ordem dentro
+              de cada capítulo é cronológica, para que o leitor possa acompanhar
+              a maturação das ideias ao longo do tempo.
             </p>
           </div>
         </div>

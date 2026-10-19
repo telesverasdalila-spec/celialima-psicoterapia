@@ -237,7 +237,7 @@ export default function Home() {
                 Caminhos do Autoconhecimento
               </h3>
               <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                O livro da Célia, com os 98 textos publicados ao longo de mais
+                Uma reunião dos meus principais artigos publicados ao longo de mais
                 de uma década de prática clínica. Download gratuito.
               </p>
               <p className="inline-flex items-center gap-1 text-xs text-primary">
@@ -262,7 +262,7 @@ export default function Home() {
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary-foreground text-primary rounded-full text-sm font-medium hover:bg-primary-foreground/90 transition-colors"
               >
                 <MessageCircle size={14} />
-                Falar com a Célia
+                Falar comigo
               </Link>
             </div>
           </div>

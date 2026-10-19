@@ -66,7 +66,7 @@ export default function SobrePage() {
                 </p>
                 <p>
                   Ao longo dessa trajetória publiquei{" "}
-                  <strong>98 textos</strong> sobre autoconhecimento, amor,
+                  <strong>uma reunião dos meus principais artigos</strong> sobre autoconhecimento, amor,
                   família, saúde, trabalho e espiritualidade — reunidos hoje
                   neste site e no livro{" "}
                   <em>Caminhos do Autoconhecimento</em>.

@@ -189,7 +189,7 @@ export default async function ArtigoPage({ params }: { params: Params }) {
                 Se um texto abriu uma pergunta, talvez seja hora de conversar.
               </h2>
               <p className="text-base text-muted-foreground leading-relaxed mb-7 max-w-xl mx-auto">
-                A primeira conversa com a Célia é sem custo e sem compromisso —
+                A primeira conversa comigo é sem custo e sem compromisso —
                 um espaço para você sentir se faz sentido seguir.
               </p>
               <Link
@@ -197,7 +197,7 @@ export default async function ArtigoPage({ params }: { params: Params }) {
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-full text-sm font-medium hover:bg-primary/90 transition-colors"
               >
                 <MessageCircle size={16} />
-                Falar com a Célia
+                Falar comigo
               </Link>
             </div>
           </div>

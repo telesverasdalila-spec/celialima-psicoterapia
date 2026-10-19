@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  
+  
+  <!-- Corpo + coração pulsando — sintoma físico como manifestação emocional -->
+  <g transform="translate(400, 300)">
+    <!-- Silhueta do corpo -->
+    <circle cx="0" cy="-130" r="38" stroke="#a05a3c" stroke-width="2.5" fill="none" opacity="0.7"/>
+    <path d="M 0,-92 L 0,80 M -65,-55 L 65,-55 M -45,80 L 45,80"
+          stroke="#a05a3c" stroke-width="2.5" fill="none" opacity="0.65" stroke-linecap="round"/>
+    <!-- Coração no peito -->
+    <path d="M 0,-30 C -16,-46 -36,-36 -36,-15 C -36,5 -10,22 0,32 C 10,22 36,5 36,-15 C 36,-36 16,-46 0,-30 Z"
+          fill="#a05a3c" opacity="0.6" stroke="#a05a3c" stroke-width="1.5"/>
+    <!-- Ondas pulsando (energia emocional) -->
+    <circle cx="0" cy="-5" r="55" stroke="#7a8a5b" stroke-width="1.5" fill="none" opacity="0.5"/>
+    <circle cx="0" cy="-5" r="85" stroke="#7a8a5b" stroke-width="1" fill="none" opacity="0.4"/>
+  </g>
+</svg>

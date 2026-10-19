@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  
+  
+  <!-- Setas ascendentes — símbolo de carreira e propósito -->
+  <g transform="translate(400, 300)">
+    <path d="M -150,80 L 0,-100 L 150,80" stroke="#a05a3c" stroke-width="3" fill="none" opacity="0.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 0,-100 L 0,-130 M -20,-110 L 0,-130 L 20,-110" stroke="#a05a3c" stroke-width="3" fill="none" opacity="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-150" y1="80" x2="150" y2="80" stroke="#a05a3c" stroke-width="2" opacity="0.6"/>
+    <!-- Pequenos degraus -->
+    <line x1="-90" y1="40" x2="-50" y2="40" stroke="#7a8a5b" stroke-width="1.5" opacity="0.6"/>
+    <line x1="50" y1="40" x2="90" y2="40" stroke="#7a8a5b" stroke-width="1.5" opacity="0.6"/>
+  </g>
+</svg>

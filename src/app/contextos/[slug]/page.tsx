@@ -197,7 +197,7 @@ export default async function ContextoPage({ params }: { params: Params }) {
               className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-full text-sm font-medium hover:bg-primary/90 transition-colors"
             >
               <MessageCircle size={16} />
-              Falar com a Célia sobre {ctx.label.toLowerCase()}
+              Falar comigo sobre {ctx.label.toLowerCase()}
             </Link>
           </div>
         </div>

@@ -183,14 +183,14 @@ export default async function PraticaPage({ params }: { params: Params }) {
                 Talvez seja o momento de ter acompanhamento.
               </h2>
               <p className="text-base text-muted-foreground leading-relaxed mb-7 max-w-xl mx-auto">
-                A primeira conversa com a Célia é sem custo e sem compromisso.
+                A primeira conversa comigo é sem custo e sem compromisso.
               </p>
               <Link
                 href="/contato"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-full text-sm font-medium hover:bg-primary/90 transition-colors"
               >
                 <MessageCircle size={16} />
-                Falar com a Célia
+                Falar comigo
               </Link>
             </div>
           </div>

@@ -32,7 +32,7 @@ export default function ContatoPage() {
           </h1>
           <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
             Se algum texto tocou algo, ou se você sente que é hora de começar a terapia,
-            escreva aqui. A Célia responde pelo WhatsApp, no tempo que a agenda permite.
+            escreva aqui. Respondo pelo WhatsApp, no tempo que a agenda permite.
           </p>
         </div>
       </section>
@@ -125,7 +125,7 @@ export default function ContatoPage() {
                   </li>
                   <li className="flex gap-3">
                     <span className="text-primary font-semibold">2.</span>
-                    <span>A Célia responde e vocês combinam horário para uma conversa inicial.</span>
+                    <span>Respondo e combinamos horário para uma conversa inicial.</span>
                   </li>
                   <li className="flex gap-3">
                     <span className="text-primary font-semibold">3.</span>
@@ -143,7 +143,7 @@ export default function ContatoPage() {
                   <li>Sessões de 50 minutos</li>
                   <li>Segunda a sexta, horário comercial</li>
                   <li className="pt-2 italic text-muted-foreground text-xs">
-                    O contato é feito pela própria Célia, sem secretária eletrônica.
+                    O contato é feito por mim, sem secretária eletrônica.
                   </li>
                 </ul>
               </div>

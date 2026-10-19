@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  
+  
+  <!-- Lótus + círculos — espiritualidade e autoconhecimento fundidos -->
+  <g transform="translate(400, 300)">
+    <circle cx="0" cy="0" r="160" stroke="#a05a3c" stroke-width="1.5" fill="none" opacity="0.45"/>
+    <circle cx="0" cy="0" r="120" stroke="#a05a3c" stroke-width="1.5" fill="none" opacity="0.55"/>
+    <path d="M 0,-100 Q -45,-45 -100,-25 Q -70,30 0,40 Q 70,30 100,-25 Q 45,-45 0,-100 Z"
+          fill="#a05a3c" opacity="0.35" stroke="#a05a3c" stroke-width="2"/>
+    <path d="M 0,-65 Q -30,-30 -65,-15 Q -45,18 0,25 Q 45,18 65,-15 Q 30,-30 0,-65 Z"
+          fill="#7a8a5b" opacity="0.4" stroke="#7a8a5b" stroke-width="1.5"/>
+    <circle cx="0" cy="-5" r="12" fill="#a05a3c" opacity="0.65"/>
+  </g>
+</svg>
