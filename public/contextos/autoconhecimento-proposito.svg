@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg-auto" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf6f1"/>
+      <stop offset="60%" stop-color="#f4ede1"/>
+      <stop offset="100%" stop-color="#e3dccd"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-auto)"/>
+  <!-- Espiral — simboliza jornada interior -->
+  <g transform="translate(400, 300)">
+    <path d="M 0,0
+             m -8,0
+             a 8,8 0 1,1 16,0
+             a 16,16 0 1,1 -32,0
+             a 32,32 0 1,1 64,0
+             a 48,48 0 1,1 -96,0
+             a 64,64 0 1,1 128,0
+             a 80,80 0 1,1 -160,0
+             a 96,96 0 1,1 192,0
+             a 112,112 0 1,1 -224,0"
+          stroke="#a05a3c" stroke-width="2" fill="none" opacity="0.5"/>
+    <circle cx="0" cy="0" r="3" fill="#a05a3c" opacity="0.7"/>
+  </g>
+</svg>

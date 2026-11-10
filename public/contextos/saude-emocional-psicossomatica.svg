@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg-saudepsico" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf6f1"/>
+      <stop offset="60%" stop-color="#f4ede1"/>
+      <stop offset="100%" stop-color="#e3dccd"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-saudepsico)"/>
+  <!-- Silhueta com coração — símbolo de saúde emocional e psicossomática -->
+  <g transform="translate(400, 300)">
+    <!-- Corpo -->
+    <circle cx="0" cy="-120" r="40" stroke="#a05a3c" stroke-width="2.5" fill="none" opacity="0.55"/>
+    <path d="M 0,-80 L 0,80 M -60,-50 L 60,-50 M -40,80 L 40,80"
+          stroke="#a05a3c" stroke-width="2.5" fill="none" opacity="0.5" stroke-linecap="round"/>
+    <!-- Coração no peito -->
+    <path d="M 0,-30 C -15,-45 -35,-35 -35,-15 C -35,5 -10,20 0,30 C 10,20 35,5 35,-15 C 35,-35 15,-45 0,-30 Z"
+          fill="#a05a3c" opacity="0.4" stroke="#a05a3c" stroke-width="1.5"/>
+  </g>
+</svg>

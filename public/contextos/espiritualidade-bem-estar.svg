@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg-esp1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf6f1"/>
+      <stop offset="60%" stop-color="#f4ede1"/>
+      <stop offset="100%" stop-color="#e3dccd"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-esp1)"/>
+  <!-- Lótus estilizado — símbolo de espiritualidade e bem-estar -->
+  <g transform="translate(400, 300)">
+    <!-- Pétalas externas -->
+    <path d="M 0,-110 Q -50,-50 -110,-30 Q -80,30 0,40 Q 80,30 110,-30 Q 50,-50 0,-110 Z"
+          fill="#a05a3c" opacity="0.18" stroke="#a05a3c" stroke-width="2"/>
+    <!-- Pétalas internas -->
+    <path d="M 0,-70 Q -30,-30 -70,-15 Q -50,20 0,25 Q 50,20 70,-15 Q 30,-30 0,-70 Z"
+          fill="#7a8a5b" opacity="0.22" stroke="#7a8a5b" stroke-width="1.5"/>
+    <!-- Centro -->
+    <circle cx="0" cy="-5" r="12" fill="#a05a3c" opacity="0.45"/>
+  </g>
+</svg>

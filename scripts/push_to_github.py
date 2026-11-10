@@ -35,6 +35,9 @@ IGNORE_PATTERNS = [
     "node_modules/**",
     ".next/**",
     "*.log",
+    # Backups grandes — não precisam ir pro GitHub (ficam só local)
+    "src/data/articles.backup-*",
+    "src/data/articles.json.backup*",
 ]
 
 BASE_DIR = Path("/home/z/my-project")
