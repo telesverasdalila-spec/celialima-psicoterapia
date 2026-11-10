@@ -64,7 +64,7 @@ export default async function ContextoPage({ params }: { params: Params }) {
           </p>
           <h1
             className="text-4xl md:text-5xl lg:text-6xl text-foreground leading-[1.1] mb-6"
-            style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+            style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
           >
             {ctx.label}
           </h1>
@@ -88,7 +88,7 @@ export default async function ContextoPage({ params }: { params: Params }) {
                   </p>
                   <h2
                     className="text-2xl text-foreground"
-                    style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                    style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
                   >
                     Artigos
                   </h2>
@@ -112,7 +112,7 @@ export default async function ContextoPage({ params }: { params: Params }) {
                         </p>
                         <h3
                           className="text-lg text-foreground mb-2 group-hover:text-primary transition-colors leading-snug"
-                          style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                          style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
                         >
                           {a.title}
                         </h3>
@@ -136,7 +136,7 @@ export default async function ContextoPage({ params }: { params: Params }) {
                   </p>
                   <h2
                     className="text-2xl text-foreground"
-                    style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                    style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
                   >
                     Práticas relacionadas
                   </h2>
@@ -160,7 +160,7 @@ export default async function ContextoPage({ params }: { params: Params }) {
                         </p>
                         <h3
                           className="text-lg text-foreground mb-2 group-hover:text-accent transition-colors leading-snug"
-                          style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                          style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
                         >
                           {p.title}
                         </h3>
@@ -183,7 +183,7 @@ export default async function ContextoPage({ params }: { params: Params }) {
           <div className="text-center">
             <h2
               className="text-2xl md:text-3xl text-foreground mb-5 leading-tight"
-              style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+              style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
             >
               {ctx.label} te levando pra cá?
             </h2>

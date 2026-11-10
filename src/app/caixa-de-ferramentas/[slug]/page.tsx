@@ -67,7 +67,7 @@ export default async function PraticaPage({ params }: { params: Params }) {
 
             <h1
               className="text-3xl md:text-4xl lg:text-5xl text-foreground leading-[1.15] mb-6"
-              style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+              style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
             >
               {article.title}
             </h1>
@@ -130,7 +130,7 @@ export default async function PraticaPage({ params }: { params: Params }) {
               </p>
               <h2
                 className="text-2xl md:text-3xl text-foreground mb-4"
-                style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
               >
                 Textos para acompanhar esta prática.
               </h2>
@@ -151,7 +151,7 @@ export default async function PraticaPage({ params }: { params: Params }) {
                       </p>
                       <h3
                         className="text-lg text-foreground mb-2 group-hover:text-primary transition-colors leading-snug"
-                        style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                        style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
                       >
                         {a.title}
                       </h3>
@@ -178,7 +178,7 @@ export default async function PraticaPage({ params }: { params: Params }) {
               </p>
               <h2
                 className="text-2xl md:text-3xl text-foreground mb-5 leading-tight"
-                style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
               >
                 Talvez seja o momento de ter acompanhamento.
               </h2>
@@ -205,7 +205,7 @@ export default async function PraticaPage({ params }: { params: Params }) {
               </p>
               <h2
                 className="text-3xl text-foreground mb-10"
-                style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
               >
                 Pra experimentar também.
               </h2>
@@ -221,7 +221,7 @@ export default async function PraticaPage({ params }: { params: Params }) {
                     </p>
                     <h3
                       className="text-xl text-foreground mb-2 group-hover:text-accent transition-colors leading-snug"
-                      style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                      style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
                     >
                       {rel.title}
                     </h3>

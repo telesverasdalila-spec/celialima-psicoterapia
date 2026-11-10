@@ -33,7 +33,7 @@ export function SiteFooter() {
           <div className="md:col-span-2">
             <h3
               className="text-2xl text-foreground mb-3"
-              style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+              style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
             >
               Célia Lima
             </h3>

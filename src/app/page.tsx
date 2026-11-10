@@ -74,7 +74,7 @@ export default function Home() {
           </HeroItem>
 
           <HeroItem className="text-5xl md:text-6xl lg:text-7xl text-foreground leading-[1.05] mb-8">
-            <h1 style={{ fontFamily: "var(--font-cormorant)", fontWeight: 500 }}>
+            <h1 style={{ fontFamily: "var(--font-fraunces)", fontWeight: 500 }}>
               Um espaço para
               <span className="block italic text-primary">pensar a vida</span>
               <span className="block">com mais gentileza.</span>
@@ -130,7 +130,7 @@ export default function Home() {
             </p>
             <h2
               className="text-3xl md:text-4xl text-foreground mb-4"
-              style={{ fontFamily: "var(--font-cormorant)", fontWeight: 500 }}
+              style={{ fontFamily: "var(--font-fraunces)", fontWeight: 500 }}
             >
               O que te trouxe aqui?
             </h2>
@@ -148,20 +148,20 @@ export default function Home() {
               <div className="glass-card-strong rounded-xl p-8 md:p-12 flex flex-col justify-center relative overflow-hidden h-full min-h-[180px]">
                 <span
                   className="absolute top-1 left-6 md:left-10 text-8xl text-primary/25 leading-none select-none pointer-events-none"
-                  style={{ fontFamily: "var(--font-cormorant)" }}
+                  style={{ fontFamily: "var(--font-fraunces)" }}
                   aria-hidden="true"
                 >
                   &ldquo;
                 </span>
                 <p
                   className="text-xl md:text-3xl text-foreground leading-relaxed italic relative z-10 max-w-4xl"
-                  style={{ fontFamily: "var(--font-cormorant)", fontWeight: 500 }}
+                  style={{ fontFamily: "var(--font-fraunces)", fontWeight: 500 }}
                 >
                   Ao persistirem os médicos, os sintomas deverão ser consultados.
                 </p>
                 <p
                   className="text-sm md:text-base text-muted-foreground italic mt-4 relative z-10"
-                  style={{ fontFamily: "var(--font-cormorant)", fontWeight: 400 }}
+                  style={{ fontFamily: "var(--font-fraunces)", fontWeight: 400 }}
                 >
                   &mdash; Tom Zé
                 </p>
@@ -220,7 +220,7 @@ export default function Home() {
                         className={`text-foreground mb-2 group-hover:text-primary transition-colors ${
                           cfg.featured ? "text-xl md:text-2xl" : "text-lg"
                         }`}
-                        style={{ fontFamily: "var(--font-cormorant)", fontWeight: 500 }}
+                        style={{ fontFamily: "var(--font-fraunces)", fontWeight: 500 }}
                       >
                         {ctx.label}
                       </h3>
@@ -255,7 +255,7 @@ export default function Home() {
               </p>
               <h2
                 className="text-3xl md:text-4xl text-foreground mb-12"
-                style={{ fontFamily: "var(--font-cormorant)", fontWeight: 500 }}
+                style={{ fontFamily: "var(--font-fraunces)", fontWeight: 500 }}
               >
                 Para começar a ler.
               </h2>
@@ -273,7 +273,7 @@ export default function Home() {
                   </p>
                   <h3
                     className="text-2xl md:text-3xl text-foreground mb-4 group-hover:text-primary transition-colors leading-snug"
-                    style={{ fontFamily: "var(--font-cormorant)", fontWeight: 500 }}
+                    style={{ fontFamily: "var(--font-fraunces)", fontWeight: 500 }}
                   >
                     {artigoDaSemana.title}
                   </h3>
@@ -301,7 +301,7 @@ export default function Home() {
                     </p>
                     <h3
                       className="text-2xl md:text-3xl text-foreground mb-4 group-hover:text-accent transition-colors leading-snug"
-                      style={{ fontFamily: "var(--font-cormorant)", fontWeight: 500 }}
+                      style={{ fontFamily: "var(--font-fraunces)", fontWeight: 500 }}
                     >
                       {praticaCoerente.title}
                     </h3>
@@ -338,7 +338,7 @@ export default function Home() {
                 <BookOpen size={28} className="text-primary mb-4" />
                 <h3
                   className="text-2xl text-foreground mb-3 group-hover:text-primary transition-colors"
-                  style={{ fontFamily: "var(--font-cormorant)", fontWeight: 500 }}
+                  style={{ fontFamily: "var(--font-fraunces)", fontWeight: 500 }}
                 >
                   Caminhos do Autoconhecimento
                 </h3>
@@ -365,7 +365,7 @@ export default function Home() {
                 <MessageCircle size={28} className="mb-4" />
                 <h3
                   className="text-2xl mb-3"
-                  style={{ fontFamily: "var(--font-cormorant)", fontWeight: 500 }}
+                  style={{ fontFamily: "var(--font-fraunces)", fontWeight: 500 }}
                 >
                   A leitura abriu alguma pergunta?
                 </h3>

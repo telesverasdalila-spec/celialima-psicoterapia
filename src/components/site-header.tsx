@@ -24,7 +24,7 @@ export function SiteHeader() {
           <Link href="/" className="group flex items-baseline gap-2 flex-shrink-0" onClick={() => setOpen(false)}>
             <span
               className="text-2xl md:text-3xl text-foreground group-hover:text-primary transition-colors"
-              style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500, letterSpacing: '0.02em' }}
+              style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500, letterSpacing: '0.02em' }}
             >
               Célia Lima
             </span>

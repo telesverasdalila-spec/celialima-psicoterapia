@@ -37,7 +37,7 @@ export default function SobrePage() {
               </p>
               <h1
                 className="text-4xl md:text-5xl text-foreground leading-[1.1] mb-8"
-                style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
               >
                 Célia Lima
                 <span className="block italic text-primary mt-1">Psicoterapeuta</span>
@@ -85,14 +85,14 @@ export default function SobrePage() {
           </p>
           <h2
             className="text-3xl md:text-4xl text-foreground mb-12"
-            style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+            style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
           >
             Como atuo.
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl text-primary mb-3" style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 600 }}>
+              <h3 className="text-xl text-primary mb-3" style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 600 }}>
                 Escuta
               </h3>
               <p className="text-sm text-foreground/80 leading-relaxed">
@@ -103,7 +103,7 @@ export default function SobrePage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl text-primary mb-3" style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 600 }}>
+              <h3 className="text-xl text-primary mb-3" style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 600 }}>
                 Símbolos e sonhos
               </h3>
               <p className="text-sm text-foreground/80 leading-relaxed">
@@ -113,7 +113,7 @@ export default function SobrePage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl text-primary mb-3" style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 600 }}>
+              <h3 className="text-xl text-primary mb-3" style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 600 }}>
                 Integrativo
               </h3>
               <p className="text-sm text-foreground/80 leading-relaxed">
@@ -133,7 +133,7 @@ export default function SobrePage() {
           <div className="max-w-2xl">
             <h2
               className="text-3xl md:text-4xl mb-5 leading-tight"
-              style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+              style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
             >
               Quer conversar comigo?
             </h2>

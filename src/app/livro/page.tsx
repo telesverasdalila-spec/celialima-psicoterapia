@@ -27,7 +27,7 @@ export default function LivroPage() {
                   </p>
                   <h3
                     className="text-2xl text-foreground text-center mb-2"
-                    style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                    style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
                   >
                     Caminhos do<br/><em className="text-primary italic">Autoconhecimento</em>
                   </h3>
@@ -45,7 +45,7 @@ export default function LivroPage() {
               </p>
               <h1
                 className="text-4xl md:text-5xl text-foreground leading-[1.1] mb-6"
-                style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
               >
                 Caminhos do Autoconhecimento
               </h1>
@@ -90,7 +90,7 @@ export default function LivroPage() {
           </p>
           <h2
             className="text-3xl md:text-4xl text-foreground mb-10"
-            style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+            style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
           >
             Organizados em seis capítulos.
           </h2>
@@ -107,7 +107,7 @@ export default function LivroPage() {
               <div key={i} className="p-5 bg-muted/30 rounded-sm border border-border">
                 <h3
                   className="text-xl text-foreground mb-2"
-                  style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                  style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
                 >
                   {cap.titulo}
                 </h3>
@@ -125,7 +125,7 @@ export default function LivroPage() {
         <div className="mx-auto max-w-3xl px-6 lg:px-8 py-16 md:py-20">
           <h2
             className="text-2xl md:text-3xl text-foreground mb-6"
-            style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+            style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
           >
             Sobre o livro.
           </h2>
@@ -159,7 +159,7 @@ export default function LivroPage() {
         <div className="mx-auto max-w-3xl px-6 lg:px-8 py-16 md:py-20 text-center">
           <h2
             className="text-2xl md:text-3xl mb-5 leading-tight"
-            style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+            style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
           >
             Baixe e leia com calma.
           </h2>

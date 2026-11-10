@@ -26,7 +26,7 @@ export default function ContatoPage() {
           </p>
           <h1
             className="text-4xl md:text-5xl lg:text-6xl text-foreground leading-[1.1] mb-6 max-w-3xl"
-            style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+            style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
           >
             Vamos conversar.
           </h1>
@@ -44,7 +44,7 @@ export default function ContatoPage() {
             <div>
               <h2
                 className="text-2xl text-foreground mb-6"
-                style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
               >
                 Escreva sua mensagem
               </h2>
@@ -115,7 +115,7 @@ export default function ContatoPage() {
             {/* Info lateral */}
             <div className="flex flex-col gap-6">
               <div className="p-6 bg-muted/30 rounded-sm border border-border">
-                <h3 className="text-lg text-foreground mb-3" style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 600 }}>
+                <h3 className="text-lg text-foreground mb-3" style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 600 }}>
                   Como funciona
                 </h3>
                 <ol className="space-y-3 text-sm text-foreground/85">
@@ -135,7 +135,7 @@ export default function ContatoPage() {
               </div>
 
               <div className="p-6 bg-muted/30 rounded-sm border border-border">
-                <h3 className="text-lg text-foreground mb-3" style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 600 }}>
+                <h3 className="text-lg text-foreground mb-3" style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 600 }}>
                   Atendimento
                 </h3>
                 <ul className="space-y-2 text-sm text-foreground/85">
@@ -149,7 +149,7 @@ export default function ContatoPage() {
               </div>
 
               <div className="p-6 bg-primary text-primary-foreground rounded-sm">
-                <h3 className="text-lg mb-3" style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 600 }}>
+                <h3 className="text-lg mb-3" style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 600 }}>
                   Prefere falar direto?
                 </h3>
                 <p className="text-sm text-primary-foreground/90 mb-4">

@@ -19,7 +19,7 @@ export default function AtendimentoPage() {
           </p>
           <h1
             className="text-4xl md:text-5xl lg:text-6xl text-foreground leading-[1.1] mb-8 max-w-3xl"
-            style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+            style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
           >
             Como atuo na caminhada terapêutica.
           </h1>
@@ -50,7 +50,7 @@ export default function AtendimentoPage() {
             </p>
             <h2
               className="text-3xl md:text-4xl text-foreground mb-4"
-              style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+              style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
             >
               Quatro portas de entrada.
             </h2>
@@ -71,7 +71,7 @@ export default function AtendimentoPage() {
                 </p>
                 <h3
                   className="text-2xl text-foreground mb-4"
-                  style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                  style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
                 >
                   {svc.name}
                 </h3>
@@ -115,14 +115,14 @@ export default function AtendimentoPage() {
           </p>
           <h2
             className="text-3xl md:text-4xl text-foreground mb-12"
-            style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+            style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
           >
             Três ideias que organizam o trabalho.
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl text-primary mb-3" style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 600 }}>
+              <h3 className="text-xl text-primary mb-3" style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 600 }}>
                 Subpersonalidades
               </h3>
               <p className="text-sm text-foreground/80 leading-relaxed">
@@ -133,7 +133,7 @@ export default function AtendimentoPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl text-primary mb-3" style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 600 }}>
+              <h3 className="text-xl text-primary mb-3" style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 600 }}>
                 Símbolos e sonhos
               </h3>
               <p className="text-sm text-foreground/80 leading-relaxed">
@@ -143,7 +143,7 @@ export default function AtendimentoPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl text-primary mb-3" style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 600 }}>
+              <h3 className="text-xl text-primary mb-3" style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 600 }}>
                 Sentido e totalidade
               </h3>
               <p className="text-sm text-foreground/80 leading-relaxed">
@@ -163,7 +163,7 @@ export default function AtendimentoPage() {
           <div className="max-w-2xl">
             <h2
               className="text-3xl md:text-4xl mb-5 leading-tight"
-              style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+              style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
             >
               Quer conversar comigo?
             </h2>

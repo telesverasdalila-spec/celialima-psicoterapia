@@ -41,7 +41,7 @@ export default function CaixaDeFerramentasPage() {
           </div>
           <h1
             className="text-4xl md:text-5xl lg:text-6xl text-foreground leading-[1.1] mb-6 max-w-3xl"
-            style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+            style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
           >
             O que você pode fazer
             <span className="italic text-accent"> agora.</span>
@@ -117,7 +117,7 @@ export default function CaixaDeFerramentasPage() {
                   </p>
                   <h2
                     className="text-2xl md:text-[1.65rem] text-foreground mb-3 group-hover:text-accent transition-colors leading-snug"
-                    style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+                    style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
                   >
                     {article.title}
                   </h2>

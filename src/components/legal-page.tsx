@@ -17,7 +17,7 @@ export function LegalPage({ title, lastUpdated, intro, sections }: LegalPageProp
           </p>
           <h1
             className="text-3xl md:text-4xl lg:text-5xl text-foreground leading-[1.1] mb-4"
-            style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 500 }}
+            style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 500 }}
           >
             {title}
           </h1>
@@ -54,7 +54,7 @@ export function LegalPage({ title, lastUpdated, intro, sections }: LegalPageProp
               <div key={idx}>
                 <h2
                   className="text-xl md:text-2xl text-foreground mb-3"
-                  style={{ fontFamily: 'var(--font-cormorant)', fontWeight: 600 }}
+                  style={{ fontFamily: 'var(--font-fraunces)', fontWeight: 600 }}
                 >
                   {section.heading}
                 </h2>
